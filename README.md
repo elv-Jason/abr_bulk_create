@@ -29,6 +29,9 @@ npm install crocks
 #### Combine all the necessary ABR specs for ingesting all the videos within a single directory (you can use a single ABR profile for ingesting all the content). It might be necessary to clear out the ABR output periodically if there is an excessive amount of content.
 
 ## Command
+--directoryPath: Path to the directory where the video contents are located
+--jsonFilePath: Path to the output JSON file
+
 ```
 node bulk_abr_create.js --directoryPath "/Users/jasonshin/mica-MovieCLIP/data_mp4/Demo" --jsonFilePath "./abr_profile.json"
 ```
