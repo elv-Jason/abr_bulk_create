@@ -32,7 +32,8 @@ npm install crocks
 ```
 node bulk_abr_create.js --directoryPath "/Users/jasonshin/mica-MovieCLIP/data_mp4/Demo" --jsonFilePath "./abr_profile.json"
 ```
-## Output (Stored as abr_profile.json within the current directory, it can be referenced in @eluvio/elv-utils-js/BulkIngest.js.)
+## SampleOutput 
+(Stored as abr_profile.json within the current directory, which can be referenced in @eluvio/elv-utils-js/BulkIngest.js. for the actual Bulk Ingestion)
 
 ```json
 {
