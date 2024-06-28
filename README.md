@@ -30,6 +30,7 @@ npm install crocks
 
 ## Command
 --directoryPath: Path to the directory where the video contents are located
+
 --jsonFilePath: Path to the output JSON file
 
 ```
