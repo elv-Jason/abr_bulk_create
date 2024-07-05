@@ -14,19 +14,6 @@ The audio bitrate ladder is fixed based on the number of channels in the audio s
 
 ## Installation
 
-#### NodeJS Installation
-
-```
-(MacOS)
-brew install node
-```
-
-```
-(Ubuntu/Debian)
-sudo apt update
-sudo apt install nodejs npm
-```
-
 #### Install from NPM:
 
 ```
