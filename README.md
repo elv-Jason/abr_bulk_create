@@ -27,12 +27,6 @@ sudo apt update
 sudo apt install nodejs npm
 ```
 
-```
-(CentOS/RHEL)
-sudo yum install epel-release
-sudo yum install nodejs npm
-```
-
 #### Install from NPM:
 
 ```
