@@ -1,7 +1,7 @@
 {
   "audio_individual_drm_keys": false,
   "drm_optional": true,
-  "store_clear": true,
+  "store_clear": false,
   "ladder_specs": {
     "{\"media_type\":\"audio\",\"channels\":1}": {
       "rung_specs": [

@@ -1,5 +1,4 @@
-//abr profile creation for bulk ingestion
-//node abr_create.js --directoryPath /path/to/your/directory --jsonFilePath /path/to/your/abr_profile.json
+//abr profile creation for bulk ingestion - overarching abr profile that covers the ingestion of many videos
 const ABR = require('./src/ElvABRProfile');
 const { dump } = require('./src/lib/utils');
 const fs = require('fs').promises;
@@ -82,4 +81,3 @@ async function iterateFiles(directoryPath) {
   }
 }
 iterateFiles(directoryPath);
-// node bulk_abr_create.js --directoryPath "/Users/jasonshin/mica-MovieCLIP/data_mp4/Demo" --jsonFilePath "./abr_profile.json"
