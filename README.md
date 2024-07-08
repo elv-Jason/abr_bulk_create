@@ -37,7 +37,7 @@ Combine all the necessary ABR specs for ingesting all the videos within a single
 node bulk_abr_create.js --directoryPath --jsonFilePath
 ```
 ## SampleOutput 
-(Stored as abr_profile.json within the current directory, which can be referenced in @eluvio/elv-utils-js/BulkIngest.js. for the actual Bulk Ingestion)
+Stored as abr_profile.json within the current directory, which can be referenced in @eluvio/elv-utils-js/BulkIngest.js for the bulk ingestion.
 
 ```json
 {
