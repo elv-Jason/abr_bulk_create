@@ -24,9 +24,9 @@ npm install crocks
 
 ## Usage
 
-#### Generate an ABR Profile based on Production Master metadata and default bitrate ladder / standard aspect ratio list
+Generate an ABR Profile based on Production Master metadata and default bitrate ladder / standard aspect ratio list
 
-#### Combine all the necessary ABR specs for ingesting all the videos within a single directory (you can use a single ABR profile for ingesting all the content). It might be necessary to clear out the ABR output periodically if there is an excessive amount of content.
+Combine all the necessary ABR specs for ingesting all the videos within a single directory (you can use a single ABR profile for ingesting all the content). It might be necessary to clear out the ABR output periodically if there is an excessive amount of content.
 
 ## Command
 --directoryPath: Path to the directory where the video contents are located
